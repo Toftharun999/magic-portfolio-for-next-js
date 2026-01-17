@@ -60,7 +60,7 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Building digital experiences that look good and convert better</>,
   featured: {
     display: true,
     title: (
@@ -76,7 +76,7 @@ const home: Home = {
   },
   subline: (
     <>
-    I'm Selene, a design engineer at <Text as="span" size="xl" weight="strong">ONCE UI</Text>, where I craft intuitive <br /> user experiences. After hours, I build my own projects.
+    I'm Jamparapu Tharun, I help brands scale by combining creative strategy with technical precision. As a <Text as="span" size="xl" weight="strong">Urbane Outdoor Furniture</Text>, I manage end-to-end campaigns that drive real revenue,<br />  optimizing everything from ad spend to landing page performance. Unlike traditional marketers, I speak the language of developers. My technical skills in HTML, CSS, and JavaScript allow me to optimize websites for technical SEO, implement advanced tracking pixel setups, and troubleshoot conversion funnels without waiting for IT support.
 </>
   ),
 };
