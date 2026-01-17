@@ -49,7 +49,7 @@ const social: Social = [
   {
     name: "Email",
     icon: "email",
-    link: `tharunjamparapu@gmail.com:${person.email}`,
+    link: `mailto:tharunjamparapu@gmail.com:${person.email}`,
     essential: true,
   },
 ];
