@@ -15,7 +15,7 @@ const person: Person = {
 const newsletter: Newsletter = {
   display: true,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
-  description: <>My weekly newsletter about creativity and engineering</>,
+  description: <>My weekly newsletter about Digital marketing and Web development </>,
 };
 
 const social: Social = [
@@ -146,9 +146,9 @@ My Core Stack: React.js - Next.js - Google Ads - SEO - Data Analytics.
           </>,
           <>
             Texturing & Materials: Apply realistic textures, colors, and materials to models.
+          </>
             <>
               Lighting & Rendering: Set up lighting and render high-quality, photorealistic images or animations.
-            </>
           </>,
         ],
         images: [],
