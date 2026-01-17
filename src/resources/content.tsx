@@ -43,7 +43,7 @@ const social: Social = [
   {
     name: "Threads",
     icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    link: "https://www.threads.com/",
     essential: true,
   },
   {
@@ -146,7 +146,7 @@ My Core Stack: React.js - Next.js - Google Ads - SEO - Data Analytics.
           </>,
           <>
             Texturing & Materials: Apply realistic textures, colors, and materials to models.
-          </>
+          </>,
             <>
               Lighting & Rendering: Set up lighting and render high-quality, photorealistic images or animations.
           </>,
