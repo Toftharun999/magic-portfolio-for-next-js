@@ -9,7 +9,7 @@ const person: Person = {
   avatar: "/images/avatar.jpg",
   email: "tharunjamparapu@gmail.com",
   location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", ], // optional: Leave the array empty if you don't want to display languages
+  languages: ["English","Telugu","Hindi" ], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {
@@ -102,9 +102,9 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        I am a Digital Marketing Executive and Web Developer based in Hyderabad. With a B.Sc. in Mathematics, Computer Science & Statistics and hands-on experience driving sales for e-commerce brands, I don’t just write code—I build solutions that grow businesses.
+Currently, I bridge the gap between technical development and marketing strategy. I specialize in building fast, SEO-optimized web applications using React.js and Next.js, while leveraging my expertise in Google Ads and Analytics to ensure they reach the right audience.
+My Core Stack: React.js - Next.js - Google Ads - SEO - Data Analytics.
       </>
     ),
   },
@@ -113,12 +113,12 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Urbane",
+        timeframe: "2025 - Present",
+        role: "Web Developer and Digital Marketing Executive",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
+            designed the UI/UX for the Urbane platform, resulting in a 20% increase in user
             engagement and 30% faster load times.
           </>,
           <>
@@ -137,17 +137,18 @@ const about: About = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Design Heaven Interiors",
+        timeframe: "2024 - 2025",
+        role: "Lead Designer and 3D & Graphic Designer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Modeling: Develop detailed 3D models of objects, characters, environments, or products from concept sketches or specifications.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Texturing & Materials: Apply realistic textures, colors, and materials to models.
+            <>
+              Lighting & Rendering: Set up lighting and render high-quality, photorealistic images or animations.
+            </>
           </>,
         ],
         images: [],
@@ -159,12 +160,12 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Osmania University",
+        description: <>Studied B.Sc Statistics.</>,
       },
       {
         name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        description: <>Studied online marketing, personal branding, and web development.</>,
       },
     ],
   },
@@ -173,14 +174,14 @@ const about: About = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "WordPress",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>making sites easy for search engines to crawl and users to navigate, while SEO plugins (Yoast, Rank Math) add powerful features like meta control, sitemaps, and schema markup, improving visibility and performance for better rankings.</>
         ),
         tags: [
           {
-            name: "Figma",
-            icon: "figma",
+            name: "WordPress",
+            icon: "WordPress",
           },
         ],
         // optional: leave the array empty if you don't want to display images
@@ -202,7 +203,7 @@ const about: About = {
       {
         title: "Next.js",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>Building next gen apps with Next.js + Urbane + Supabase.</>
         ),
         tags: [
           {
