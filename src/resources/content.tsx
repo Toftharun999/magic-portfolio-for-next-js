@@ -2,14 +2,14 @@ import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/
 import { Line, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
-  firstName: "Selene",
-  lastName: "Yu",
-  name: `Selene Yu`,
-  role: "Design Engineer",
+  firstName: "Jamparapu",
+  lastName: "Tharun",
+  name: `Jamparapu Tharun`,
+  role: "Digital Marketing Executive and Web Developer ",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  email: "tharunjamparapu@gmail.com",
+  location: "Asia/India/Telangana/Hyderabad", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", ""], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {
@@ -25,19 +25,19 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system",
+    link: "https://github.com/Toftharun999",
     essential: true,
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/jamparapu-tharun/",
     essential: true,
   },
   {
     name: "Instagram",
     icon: "instagram",
-    link: "https://www.instagram.com/once_ui/",
+    link: "https://www.instagram.com/_tha.run.07?igsh=MXRkNXQzNXpjdWMyMw==",
     essential: false,
   },
   {
@@ -49,7 +49,7 @@ const social: Social = [
   {
     name: "Email",
     icon: "email",
-    link: `mailto:${person.email}`,
+    link: `tharunjamparapu@gmail.com:${person.email}`,
     essential: true,
   },
 ];
@@ -65,7 +65,7 @@ const home: Home = {
     display: true,
     title: (
       <Row gap="12" vertical="center">
-        <strong className="ml-4">Once UI</strong>{" "}
+        <strong className="ml-4">Urbane</strong>{" "}
         <Line background="brand-alpha-strong" vert height="20" />
         <Text marginRight="4" onBackground="brand-medium">
           Featured work
@@ -76,7 +76,7 @@ const home: Home = {
   },
   subline: (
     <>
-    I'm Jamparapu Tharun, I help brands scale by combining creative strategy with technical precision. As a <Text as="span" size="xl" weight="strong">Urbane Outdoor Furniture</Text>, I manage end-to-end campaigns that drive real revenue,<br />  optimizing everything from ad spend to landing page performance. Unlike traditional marketers, I speak the language of developers. My technical skills in HTML, CSS, and JavaScript allow me to optimize websites for technical SEO, implement advanced tracking pixel setups, and troubleshoot conversion funnels without waiting for IT support.
+    I'm Jamparapu Tharun, a Digital Marketing Executive. I help brands scale by combining creative strategy with technical precision. As a <Text as="span" size="xl" weight="strong">Urbane Outdoor Furniture</Text>, I manage end-to-end campaigns that drive real revenue,<br />  optimizing everything from ad spend to landing page performance. Unlike traditional marketers, I speak the language of developers. My technical skills in HTML, CSS, and JavaScript allow me to optimize websites for technical SEO, implement advanced tracking pixel setups, and troubleshoot conversion funnels without waiting for IT support.
 </>
   ),
 };
